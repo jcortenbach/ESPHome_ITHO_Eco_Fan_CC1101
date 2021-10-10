@@ -69,9 +69,9 @@ esphome:
   platform: ESP8266
   board: nodemcuv2
   includes: 
-    - itho_eco_fan/itho/cc1101.h
+    - ITHO/itho/cc1101.h
   libraries: 
-    - https://github.com/Scriptman/ESPHome_ITHO_Eco_Fan_CC1101.git
+    - https://github.com/jcortenbach/ESPHome_ITHO_Eco_Fan_CC1101.git
     
   #Set ID from remotes that are used, so you can identify the root of the last State change
   on_boot:
