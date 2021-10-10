@@ -67,7 +67,7 @@ I created a new device in Home Assistant ESPHome addon (named itho_eco_fan), and
 esphome:
   name: itho_eco_fan
   platform: ESP8266
-  board: nodemcuv2
+  board: d1_mini_pro
   includes: 
     - ITHO/itho/cc1101.h
   libraries: 
